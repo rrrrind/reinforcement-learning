@@ -1,0 +1,6 @@
+gym
+tqdm
+numpy
+ipywidgets
+matplotlib
+jupyterlab
