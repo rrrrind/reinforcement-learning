@@ -1,4 +1,4 @@
-# reinforcement-learning
+# 強化学習
 このリポジトリは，強化学習に関するアルゴリズムをJupyterLab, python, pytorch, OpenAIなどで実装することで，アルゴリズムの理解やpythonのライブラリに慣れることを目的としております．
 ## 実装済み
 - 動的計画法を用いた状態価値関数値の導出
@@ -12,6 +12,7 @@
 ## 実装中
 - Sarsaを用いたMountainCarの実装
 
+# reinforcement-learning
 Implementation about Reinforcement Learning Algorithms.  
 For example, Dynamic programing, Monte Carlo method, Temporal Difference Learning, Deep Q Learning, and so on.  
 Exercise using JupyterLab, python, pytorch, OpenAI.  
