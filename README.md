@@ -1,5 +1,5 @@
 # 強化学習
-このリポジトリは，強化学習に関するアルゴリズムをJupyterLab, python, pytorch, OpenAIを用いて実装することで，アルゴリズムの理解やpythonのライブラリに慣れることを目的としております．
+このリポジトリは，強化学習に関するアルゴリズムをJupyterLab, python, pytorch, OpenAIを用いて実装することで，アルゴリズムの理解やpythonのライブラリに慣れることを目的としております．  
 ## 実装済み
 - 動的計画法を用いた状態価値関数値の導出
 - 動的計画法を用いた行動価値関数値の導出
@@ -11,6 +11,9 @@
 
 ## 実装中
 - Sarsaを用いたMountainCarの実装
+
+## 注意事項
+Jupyter上でファイルを開くことを想定しているため，Github上で~.ipynbを開くとフォーマットが少し崩れることがあります．
 
 # reinforcement-learning
 Implementation about Reinforcement Learning Algorithms.  
