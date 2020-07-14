@@ -1,5 +1,4 @@
-tqdm
+gym
 numpy
-ipywidgets
 matplotlib
 jupyterlab
