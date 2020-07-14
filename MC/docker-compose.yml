@@ -1,4 +1,4 @@
-version: "3.2"
+version: "3.7"
 # コンテナの集まりの名前を定義
 services:
     # 1つのコンテナの名前を定義
@@ -18,5 +18,11 @@ services:
           - type: bind
             source: ./src
             target: /home/workspace/src
+          - type: bind
+            source: $HOME/.Xauthority
+            target: /root/.Xauthority
+        # 仮想ディスプレイの環境設定
+        environment:
+          - DISPLAY=host.docker.internal:0
         # コンテナを立ち上げた時に実行されるコマンド
         command: jupyter lab --ip=0.0.0.0 --port=9990 --allow-root --no-browser --notebook-dir="/home/workspace/src"
