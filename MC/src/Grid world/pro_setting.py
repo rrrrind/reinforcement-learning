@@ -15,11 +15,9 @@ def generate_stage():
 # エージェントには，『状態』『行動』『報酬』『方策』を持たせている
 
 class Agent(): 
-    # 行動aの宣言。引数で使うので、初めに宣言する。
-    actions = [[0,1],[0,-1],[-1,0],[1,0]] # up,down,left,right
-    
     def __init__(self):
         self.position = []
+        self.actions = [[0,1],[0,-1],[-1,0],[1,0]] # up,down,left,right
         self.pi = []
     
     def set_pos(self,now_pos):
@@ -29,6 +27,14 @@ class Agent():
     def get_pos(self):
         # 現在地の取得
         return self.position
+    
+    def set_actions(self,new_actions):
+        # 行動の更新
+        self.actions = new_actions
+        
+    def get_actions(self):
+        # 行動の取得
+        return self.actions
     
     def set_pi(self,new_pi):
         # 方策の更新
