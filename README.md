@@ -7,13 +7,14 @@
 - 再帰処理と反復処理の比較
 - モンテカルロ法
 - モンテカルロ法を用いたCartPole問題の解決
-- TD法を用いた価値関数値の導出
 
 ## 実装中
+- TD法を用いた価値関数値の導出
 - Sarsaを用いたMountainCarの実装
 
 ## 注意事項
-Jupyter上でファイルを開くことを想定しているため，Github上で~.ipynbを開くとフォーマットが少し崩れることがあります．
+- Jupyter上でファイルを開くことを想定しているため，Github上で~.ipynbを開くとフォーマットが少し崩れることがあります．
+- OpenAI Gymは(Macの場合)，Xhostコマンドを実行し，Xtermを起動させてから実行させてください．
 
 # reinforcement-learning
 Implementation about Reinforcement Learning Algorithms.  
